@@ -1,0 +1,75 @@
+  178  man sort -u
+  179  curl -o Unix_commands.md https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+  180  grep php
+  181  grep "php" wilders.csv | wc -l
+  182  ls
+  183  ls
+  184  grep "php" wilders.txt | wc -l
+  185  grep "php" < wilders.txt | wc -l
+  186  grep "php" < wilders.csv
+  187  grep "php" < wilders.txt
+  188  grep "php" < wilders.txt | wc -l
+  189  cat wilders.txt
+  190  find
+  191  cat wilders.txt
+  192  grep "france,PHP" wilders.txt
+  193  grep "france,PHP" < wilders.txt -l
+  194  grep "france,PHP" < wilders.txt wc -l
+  195  grep "france,PHP" < wilders.txt | wc -l
+  196  grep "France,PHP" < wilders.txt | wc -l
+  197  grep "France;PHP" < wilders.txt | wc -l
+  198  grep "France;PHP;2019" < wilders.txt | wc -l
+  199  grep "PHP" < wilders.txt | wc -l
+  200  grep "France" < wilders.txt | wc -l
+  201  grep "2019" < wilders.txt | wc -l
+  202  grep "2019;France;PHP" < wilders.txt | wc -l
+  203  grep "France;PHP" < wilders.txt | wc -l
+  204  grep "2019,France,PHP" < wilders.txt | wc -l
+  205  grep -i "2019,France,PHP" < wilders.txt | wc -l
+  206  grep -i "2019,France,PHP" wilders.txt
+  207  grep -i "2019,France,PHP" wilders.txt | wc -l
+  208  grep -i "France,2019,PHP" wilders.txt
+  209  grep -i "France,2019,PHP" wilders.txt | wc -l
+  210  grep -i "France,2019,PHP" wilders.txt | wc -l > php_france_2019.csv
+  211  cat php_france_2019.csv
+  212  grep -i "Toulouse,JavaScript" wilders.txt
+  213  grep -i "Toulouse,JavaScript" wilders.txt | wc -l
+  214  grep -i "Toulouse;JavaScript" wilders.txt | wc -l
+  215  grep -i "Toulouse" "JavaScript" wilders.txt | wc -l
+  216  grep -i "Toulouse";"JavaScript" wilders.txt | wc -l
+  217  grep -e "Toulouse" -e "JavaScript" wilders.txt | wc -l
+  218  grep -e "Toulouse" -e "JavaScript" wilders.txt
+  219  grep -e "Toulouse" -e "JavaScript" * wilders.txt
+  220  grep -e "Toulouse" + -e "JavaScript" * wilders.txt
+  221  grep -r -E "Toulouse|JavaScript" * wilders.txt
+  222  grep -i "France,2019,PHP" wilders.txt | wc -l > php_france_2019.csv
+  223  grep -i "Toulouse;JavaScript" wilders.txt | wc -l
+  224  cat php_france_2019.csv
+  225  grep -e "Toulouse" -e "JavaScript" * wilders.txt
+  226  grep -e "Toulouse" -e "JavaScript" wilders.txt
+  227  grep -i "Toulouse" wilders.txt 
+  228  grep -i "Toulouse" wilders.txt > Toulouse.csv
+  229  cat toulouse .csv
+  230  cat toulouse.csv
+  231  grep "Javascript" Toulouse.csv > JavaScript_Toulouse.csv
+  232  grep -i "Biarritz" wilders.txt > Biarritz.csv
+  233  grep "Javascript" Biarritz.csv > JavaScript_Biarritz.csv
+  234  Javascript_Biarritz.csv Javascript_Toulouse.csv > javascript_biarritz_toulouse.csv
+  235  cat Javascript_Biarritz.csv Javascript_Toulouse.csv > javascript_biarritz_toulouse.csv
+  236  cat javascript_biarritz_toulouse.csv
+  237  cat php_france_2019.csv
+  238  cat javascript_biarritz_toulouse.csv
+  239  cat Toulouse.csv
+  240  cat Javascript_toulouse.csv
+  241  cat Javascript_Toulouse.csv
+  242  cat JavaScript_Toulouse.csv
+  243  grep -i javascript toulouse.csv > javascript_toulouse.csv
+  244  cat javascript_toulouse.csv
+  245  grep -i javascript biarritz.csv > javascript_biarritz.csv
+  246  cat javascript_biarritz.csv
+  247  cat -i javascript_biarritz.csv javascript_toulouse.csv > javascript_biarritz_toulouse.csv
+  248  cat javascript_biarritz.csv javascript_toulouse.csv > javascript_biarritz_toulouse.csv
+  249  cat javascript_biarritz_toulouse.csv
+  250  history
+  251  history | tail -75
+  252  history | tail -75 > history.txt
